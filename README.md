@@ -1,7 +1,7 @@
 # Clustering Algorithm in C++
 
 ##  Overview
-This project implements a clustering algorithm in C++ for grouping points based on their similarities. The algorithm does not rely on centroids but instead uses a vector representation where each point is assigned to a cluster.
+This project implements a clustering algorithm in C++ for grouping points based on their similarities. The algorithm does not rely on centroids but instead uses a vector representation where each point is assigned to a cluster. It is a implementation of genetic algorithm with local search and VIG optimization technique.
 
 ##  Features
 - ✅ Efficient clustering of points
