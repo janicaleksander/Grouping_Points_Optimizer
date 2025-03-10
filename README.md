@@ -13,11 +13,10 @@ This project implements a clustering algorithm in C++ for grouping points based 
 - 🛠️ CMake (for building the project)
 
 
-## 🚀 Installation
+## 🚀 Installation (Linux)
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/clustering-algorithm.git
-cd clustering-algorithm
+git clone https://github.com/janicaleksander/Grouping_Points_Optimizer.git
 
 # Build the project using CMake
 mkdir build 
@@ -27,11 +26,15 @@ make
 ```
 
 ## ▶️ Usage
-Run the compiled binary with an input dataset:
-```sh
-./clustering input.txt
+Run the compiled binary. First you can setup start conditions. 
 ```
-Ensure `input.txt` contains properly formatted point data.
+CGaussianGroupingEvaluatorFactory c_evaluator_factory(x, y, z);
+x - number of cluster
+y - number of points 
+z - random seed
+
+```
+There you can see how your fitness function is decreasing.
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
