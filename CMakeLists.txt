@@ -10,7 +10,6 @@ set(SOURCES
         Optimizer.cpp
         Point.cpp
         CIndividual.cpp
-        CMySmartPointer.cpp
         CRefCounter.cpp
         GaussianGroupingEvaluatorFactory.cpp
         GroupingChallenge.cpp
